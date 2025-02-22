@@ -17,7 +17,6 @@ class Cub:
         self.x = randint(0, int(SCREEN_WIDTH - self.w))
         self.y = 0
         self.speed = 1
-        # self.name = self
 
     def move(self):
         if self.y < SCREEN_HIGHT:
